@@ -1,17 +1,20 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const CleanWebpackPlugin = require('clean-webpack-plugin');
 const autoprefixer = require('autoprefixer');
+const path = require('path');
 
 module.exports = {
   entry: './src/main.js',
   output: {
-    path: __dirname + '/dist',
+    path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js'
   },
   devtool: 'source-map',
   devServer: {
     port: 3000,
-    open: true
+    open: true,
+    contentBase: './src/'
   },
   module: {
     rules: [
@@ -85,11 +88,13 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       title: 'Brenda',
+      hash: true,
       template: './src/index.handlebars'
     }),
     new MiniCssExtractPlugin({
       filename: '[name]-styles.css',
       chunkFilename: '[id].css'
-    })
+    }),
+    new CleanWebpackPlugin('dist', {})
   ]
 };
