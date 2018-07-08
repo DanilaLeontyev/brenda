@@ -15,9 +15,10 @@ module.exports = {
   },
   module: {
     rules: [
+      { test: /\.handlebars$/, loader: 'handlebars-loader' },
       {
         test: /\.css$/,
-        loaders: ['style-loader', 'css-loader']
+        loader: ['style-loader', 'css-loader']
       },
       {
         test: /\.(scss|css)$/,
@@ -84,7 +85,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       title: 'Brenda',
-      template: './src/index.html'
+      template: './src/index.handlebars'
     }),
     new MiniCssExtractPlugin({
       filename: '[name]-styles.css',
