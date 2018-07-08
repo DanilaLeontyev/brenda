@@ -1,2 +1,2 @@
 import './main.scss';
-import './index.handlebars';
+import './components/Header/Header';

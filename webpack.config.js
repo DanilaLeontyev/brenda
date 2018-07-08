@@ -14,14 +14,18 @@ module.exports = {
   devServer: {
     port: 3000,
     open: true,
-    contentBase: './src/'
+    contentBase: './src'
   },
   module: {
     rules: [
-      { test: /\.handlebars$/, loader: 'handlebars-loader' },
+      { test: /\.hbs$/, loader: 'handlebars-loader' },
       {
         test: /\.css$/,
         loader: ['style-loader', 'css-loader']
+      },
+      {
+        test: /\.(woff|woff2|eot|ttf|otf)$/,
+        use: ['file-loader']
       },
       {
         test: /\.(scss|css)$/,
@@ -89,7 +93,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: 'Brenda',
       hash: true,
-      template: './src/index.handlebars'
+      template: './src/index.hbs'
     }),
     new MiniCssExtractPlugin({
       filename: '[name]-styles.css',
