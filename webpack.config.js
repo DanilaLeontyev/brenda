@@ -53,14 +53,13 @@ module.exports = {
         ]
       },
       {
-        test: /\.(jpg|png|gif)$/,
+        test: /\.(png|jp(e*)g|svg)$/,
         use: [
           {
-            loader: 'file-loader',
+            loader: 'url-loader',
             options: {
-              name: '[name].[ext]',
-              outputPath: 'static/',
-              useRelativePath: true
+              limit: 8000,
+              name: 'assets/[name]-[hash].[ext]'
             }
           },
           {
