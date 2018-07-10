@@ -1,5 +1,7 @@
-body {
-  background-color: purple;
-  display: flex;
-  user-select: none;
+@import './components/Header/Header.scss';
+@import '../node_modules/normalize-scss/sass/normalize/_import-now.scss';
+
+.main-container {
+  max-width: 1140px;
+  margin: 0 auto;
 }
