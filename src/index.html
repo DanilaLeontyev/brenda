@@ -13,6 +13,7 @@
 
 <body>
   <div class="main-container">
+
     <header>
       <section class="header--upRow">
         <div class="header--logotype">
@@ -259,23 +260,30 @@
         <h4 class="littleThings--contentTitle">Мелочи, которые делают посещение нашей студии комфортным</h4>
         <div class="littleThings--benefits">
           <div class="benefits--item">
-            <img src=<%=require( "./assets/icons/benefits_care/1.svg")%> alt="Иконка кресла">
+            <div class="benefits--itemImg">
+              <img src=<%=require( "./assets/icons/benefits_care/1.svg")%> alt="Иконка кресла">
+            </div>
             <span>Удобное кресло</span>
           </div>
           <div class="benefits--item">
-            <img src=<%=require( "./assets/icons/benefits_care/2.svg")%> alt="Иконка кресла">
+            <div class="benefits--itemImg">
+              <img src=<%=require( "./assets/icons/benefits_care/2.svg")%> alt="Иконка кресла">
+            </div>
             <span>Возможность просмотра
               <br> фильмов</span>
           </div>
           <div class="benefits--item">
-            <img src=<%=require( "./assets/icons/benefits_care/3.svg")%> alt="Иконка кресла">
+            <div class="benefits--itemImg">
+              <img src=<%=require( "./assets/icons/benefits_care/3.svg")%> alt="Иконка кресла">
+            </div>
             <span>Подача свежесваренного
               <br> кофе со сладостями</span>
           </div>
         </div>
 
-        <img class='instrument--smile' src=<%=require(
-          "./assets/icons/benefits_care/smile.svg")%> alt="Смайлик">
+        <div class="instrument--smile">
+          <img src=<%=require( "./assets/icons/benefits_care/smile.svg")%> alt="Смайлик">
+        </div>
         <p class="littleThings--text">
           Во время процедуры Ваш ребенок может поиграть
           <br> в детской комнате
@@ -307,8 +315,10 @@
         </div>
       </div>
     </section>
+  </div>
+  <section class="masters">
+    <div class="main-container">
 
-    <section class="masters">
       <h2 class="masters--title">
         Приятные мастера
         <br> с медицинским образованием
@@ -362,9 +372,12 @@
         </div>
       </div>
       <img class="masters--rose" src=<%=require( "./assets/img/masters/rose.png")%> alt="Декоративная роза">
-    </section>
+
+    </div>
     <div class="masters--bgBlock"></div>
-  </div>
+  </section>
+
+
   <div class="main-container">
     <h2 class="Atmosphere--title">Атмосфера
       <br> BRENDA
@@ -484,19 +497,27 @@
     </div>
     <div class="Program--benefits">
       <div class="benefits--item">
-        <img src=<%=require( "./assets/icons/program/1.svg")%> alt="Иконка">
+        <div class="benefits--itemImg">
+          <img src=<%=require( "./assets/icons/program/1.svg")%> alt="Иконка">
+        </div>
         <p>Личная карточка клиента</p>
       </div>
       <div class="benefits--item">
-        <img src=<%=require( "./assets/icons/program/2.svg")%> alt="Иконка">
+        <div class="benefits--itemImg">
+          <img src=<%=require( "./assets/icons/program/2.svg")%> alt="Иконка">
+        </div>
         <p>Каждая пятая процедура бесплатно
         </p>
       </div>
       <div class="benefits--item">
-        <img src=<%=require( "./assets/icons/program/3.svg")%> alt="Иконка">
+        <div class="benefits--itemImg">
+          <img src=<%=require( "./assets/icons/program/3.svg")%> alt="Иконка">
+        </div>
         <p>При первом посещении приветственная скидка 40%</p>
       </div>
     </div>
+    <img class="Program--rose1" src=<%=require( './assets/img/program/1.png')%> alt="Декоративная роза1">
+    <img class="Program--rose2" src=<%=require( './assets/img/program/2.png')%> alt="Декоративная роза1">
   </section>
 
   <section class="BottomForm">

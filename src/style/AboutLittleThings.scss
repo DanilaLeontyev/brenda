@@ -54,6 +54,10 @@
   line-height: 30px;
   margin-top: 30px;
 }
+.benefits--itemImg {
+  display: flex;
+  justify-content: center;
+}
 
 .littleThings--text {
   margin: 0 auto;
@@ -73,6 +77,8 @@
   height: 18px;
   margin: 0 auto;
   top: -10px;
+  display: flex;
+  justify-content: center;
 }
 
 .littleThings--lacquer {
