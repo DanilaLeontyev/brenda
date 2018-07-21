@@ -1,0 +1,75 @@
+.Client {
+  position: relative;
+}
+
+.Client--title {
+  margin-top: 270px;
+  font-family: 'FuturaHeavy', serif;
+  font-size: 52px;
+}
+
+.Client--foliage {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.Client--leaf {
+  position: absolute;
+  top: -225px;
+  left: 220px;
+}
+
+.Client--bg__gray {
+  position: absolute;
+  left: 0;
+  top: -130px;
+  z-index: -3;
+  height: 790px;
+  width: 880px;
+  background-color: #e3e4e5;
+}
+
+.Client--gallery {
+  min-width: 1180px;
+}
+
+.Client--gallery > img {
+  margin-right: 30px;
+}
+
+.Client--contentWrapper {
+  display: flex;
+}
+
+.Client--sub {
+  font-family: 'FuturaHeavy', serif;
+  font-size: 18px;
+  align-self: center;
+  display: flex;
+  margin-left: 100px;
+}
+
+.Client--sub > img {
+  align-self: flex-start;
+  margin-right: 18px;
+}
+.Client--sub > p {
+  margin: 0;
+}
+
+.Client--sub > p > a {
+  display: inline-block;
+  margin-top: 25px;
+  color: #ff1b60;
+  text-decoration: none;
+}
+
+.Client--buttons {
+  margin-left: 500px;
+  margin-top: 115px;
+}
+
+.Client--buttons > button {
+  margin-right: 30px;
+}

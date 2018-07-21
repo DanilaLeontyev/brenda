@@ -1,0 +1,57 @@
+.Map {
+    width: 1140px;
+    margin: 0 auto;
+    margin-top: 300px;
+}
+
+.Map--title {
+    font-family: 'FuturaHeavy', serif;
+    font-size: 52px;
+    line-height: 60px;
+}
+
+.Map--content {
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #e3e4e5;
+}
+
+.Map--address {
+    flex-grow: 1;
+    padding: 75px;
+    font-family: 'Noto Sans' ,serif;
+    font-size: 16px;
+}
+
+.Map--address a {
+    text-decoration: none;
+}
+.Map--addressText {
+    font-size: 18px;
+}
+
+.Map--address  img {
+    margin-right: 18px;
+}
+
+.text__gray {
+    margin-top: 55px;
+    margin-bottom: 25px;
+    color: #bdb9ba;
+}
+
+.text__gray:first-child {
+    margin-top: 0;
+}
+
+.Map--telephone {
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.Map--mail {
+    font-size: 18px;
+    color: #ff1b60;
+}

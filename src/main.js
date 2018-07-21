@@ -1,2 +1,1 @@
-import './main.scss';
-import './components/Header/Header';
+import './index.scss'

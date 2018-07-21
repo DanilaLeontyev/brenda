@@ -1,0 +1,63 @@
+.Brands {
+    background-image: url('./assets/img/brands/bg.png');
+    background-position: 0 50px;
+    background-repeat: no-repeat;
+    width: 1552px;
+    height: 850px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+
+.Brands--quotes {
+    position: absolute;
+    background-color: white;
+    padding-right: 55px;
+    top: 10px;
+}
+.Brands--content {
+    width: 1140px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.Brands--title {
+    font-family: 'FuturaHeavy', serif;
+    font-size: 52px;
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+.Brands--review {
+    display: flex;
+    flex-direction: row;
+    width: 750px;
+    margin: 0 auto;
+}
+
+.review--text {
+    position: relative;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+.review--text > p {
+    padding-top: 40px;
+    border-top: 2px solid #ff1b60;
+    font-family: 'Noto Sans' ,serif;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.review--avatar > p {
+    text-align: center;
+    line-height: 30px;
+    font-family: 'Noto Sans',serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.review--text > .slider--buttons {
+    margin-top: 35px;
+    margin-bottom: 75px;
+}

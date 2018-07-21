@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Brenda</title>
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,latin-ext"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+</head>
+
+<body>
+  <div class="main-container">
+    <header>
+      <section class="header--upRow">
+        <div class="header--logotype">
+          <img width="140" height="50" src=<%=require( "./assets/img/logotype.png") %> alt="Логотип" />
+          <p class="header--logotype-text">
+            Студия депиляции
+            <br> и красоты BRENDA
+          </p>
+        </div>
+        <div class="header--telButton">
+          <div class="header--telIcon">
+            <img src=<%=require( "./assets/icons/phone.svg") %> alt="phoneIcon" />
+          </div>
+          <button>8 800 2000 600</button>
+        </div>
+      </section>
+      <h1 class="header--title">
+        Красивые ухоженные
+        <br> ногти в студии депиляции
+        <br> BRENDA
+      </h1>
+      <ul class="feature-container">
+        <li>
+          <img class="featureImg" src=<%=require( "./assets/icons/check.svg")%> alt="icon" /> Удобная парковка возле салона</li>
+        <li>
+          <img class="featureImg" src=<%=require( "./assets/icons/check.svg")%> alt="icon" /> Уютная обстановка</li>
+        <li>
+          <img class="featureImg" src=<%=require( "./assets/icons/check.svg")%> alt="icon" /> Высокий сервис обслуживания</li>
+      </ul>
+      <img class="header--bgImage" width="1090" height="810" src=<%=require(
+        "./assets/img/bg-image.png") %> alt="Девушка" />
+
+      <section class="header--form">
+        <span class="header--line"></span>
+        <p>Запишитесь
+          <br> онлайн прямо
+          <br> сейчас
+        </p>
+        <div class="header--sighUpContainer">
+          <form action="POST" class="signUp">
+            <div class="signUp--inputContainer">
+              <img width="15" height="18" src=<%=require( "./assets/icons/man.svg")%> alt="manIcon">
+              <input type="text" name="name" id="signUp--name" placeholder="Имя">
+            </div>
+            <div class="signUp--inputContainer">
+              <img width="18" height="18" src=<%=require( "./assets/icons/Phoneicon.svg")%> alt="phoneIcon">
+              <input type="tel" name="tel" id="signUp--tel" placeholder="Телефон">
+            </div>
+            <button class="signUp--button" type="submit">Записаться</button>
+          </form>
+          <p class="signUp--rules">
+            Нажимая кнопку "Записаться", я даю согласие на
+            <span class="signUp--rules__black">обработку персональных данных</span>
+          </p>
+        </div>
+      </section>
+    </header>
+
+    <section class="services">
+      <h2 class="services--title">
+        Услуги
+      </h2>
+      <div class="services--container">
+        <div class="gallery--firstRow">
+          <div class="gallery--item">
+            <div class="gallery--image">
+              <img src=<%=require( "./assets/img/services/1.png")%> alt="manicure">
+              <div class="gallery--animatedBlock">
+                <button class="seePrice">Посмотреть цены</button>
+                <button class="enrollOnline">Записаться онлайн</button>
+              </div>
+            </div>
+            <div class="gallery--itemDescription">
+              <span class="gallery--line"></span>
+              <span>Маникюр</span>
+            </div>
+          </div>
+          <div class="gallery--other">
+            <div class="gallery--otherFirstRow">
+              <div class="gallery--item">
+                <div class="gallery--image">
+                  <img src=<%=require( "./assets/img/services/2.png")%> alt="manicure">
+                  <div class="gallery--animatedBlock">
+                    <button class="seePrice">Посмотреть цены</button>
+                    <button class="enrollOnline">Записаться онлайн</button>
+                  </div>
+                </div>
+                <div class="gallery--itemDescription">
+                  <span class="gallery--line"></span>
+                  <span>Покрытие</span>
+                </div>
+              </div>
+              <div class="gallery--item">
+                <div class="gallery--image">
+                  <div class="gallery--image">
+                    <img src=<%=require( "./assets/img/services/3.png")%> alt="manicure">
+                    <div class="gallery--animatedBlock">
+                      <button class="seePrice">Посмотреть цены</button>
+                      <button class="enrollOnline">Записаться онлайн</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="gallery--itemDescription">
+                  <span class="gallery--line"></span>
+                  <span>Дизайн</span>
+                </div>
+              </div>
+            </div>
+            <div class="gallery--otherSecondRow">
+              <div class="gallery--item">
+                <div class="gallery--image">
+                  <img src=<%=require( "./assets/img/services/4.png")%> alt="manicure">
+                  <div class="gallery--animatedBlock">
+                    <button class="seePrice">Посмотреть цены</button>
+                    <button class="enrollOnline">Записаться онлайн</button>
+                  </div>
+                </div>
+                <div class="gallery--itemDescription">
+                  <span class="gallery--line"></span>
+                  <span>Снятие</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="gallery--secondRow">
+          <div class="gallery--item">
+            <div class="gallery--image">
+              <img src=<%=require( "./assets/img/services/5.png")%> alt="manicure">
+              <div class="gallery--animatedBlock">
+                <button class="seePrice">Посмотреть цены</button>
+                <button class="enrollOnline">Записаться онлайн</button>
+              </div>
+            </div>
+            <div class="gallery--itemDescription">
+              <span class="gallery--line"></span>
+              <span>Наращивание</span>
+            </div>
+          </div>
+          <div class="gallery--item">
+            <div class="gallery--image">
+              <img src=<%=require( "./assets/img/services/6.png")%> alt="manicure">
+              <div class="gallery--animatedBlock">
+                <button class="seePrice">Посмотреть цены </button>
+                <button class="enrollOnline">Записаться онлайн</button>
+              </div>
+            </div>
+            <div class="gallery--itemDescription">
+              <span class="gallery--line"></span>
+              <span>Педикюр</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about">
+      <h2 class="about--title">
+        Как мы заботимся о вашем
+        <br> комфорте и безопасности
+      </h2>
+      <section class="about--safety">
+        <h3 class="safety--title">1.</h3>
+        <h4 class="safety--secondTitle">Используем только безопасную косметику</h4>
+        <div class="safety--content">
+          <img src=<%=require( "./assets/img/about/1/logo.png")%> alt="Логотип CND" class="safety--logo">
+          <div class="safety--description">
+            <p class="description--text">CND — "авторы" гель-лака. В этой фирме создали покрытие Shellac, которое
+              стало нарицательным и часто используется вместо настоящего названия
+              "гель-лак'. Мы используем более 100 оттенков из палитр СНО Shellac
+              и Vinylux. Также пользуемся средствами для ухода за ногтями и руками:
+              размягчителями маслами и кремами CND. </p>
+            <div class="description--certificates">
+              <div class="cert-wrapper">
+                <img src=<%=require( "./assets/img/about/1/cert.png")%> alt="Сертификат" class="certifacate">
+              </div>
+              <div class="cert-wrapper">
+                <img src=<%=require( "./assets/img/about/1/cert.png")%> alt="Сертификат" class="certifacate">
+              </div>
+              <div class="cert-wrapper">
+                <img src=<%=require( "./assets/img/about/1/cert.png")%> alt="Сертификат" class="certifacate">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <img class="safety--rose" src=<%=require( "./assets/img/about/1/rose1.png")%> alt="Лепесток розы">
+        <img class="safety--leaf" src=<%=require( "./assets/img/about/1/leaf.png")%> alt="Листок">
+      </section>
+    </section>
+
+    <section class="about--instrument">
+      <h3 class="instrument--title">2.</h3>
+      <h4 class="instrument--secondTitle">Используем 3-х этапную систему обработки инструментов</h4>
+      <div class="instrument--content">
+        <div class="content--item">
+          <div class="item--image">
+            <img src=<%=require( "./assets/img/about/2/item1.png")%> alt="Иконка">
+            <span>1</span>
+          </div>
+          <div class="item--description">
+            <h5 class="description--title">Замачиваем инструменты в растворе</h5>
+            <p class="description--text">
+              Погружаем инструменты в ванночку с дезинфицирующем средством "Эстилодез'. Средство
+              отлично удаляет бактерии, грибки, разного рода загрязнения.
+            </p>
+          </div>
+        </div>
+        <div class="content--item">
+          <div class="item--image">
+            <img src=<%=require( "./assets/img/about/2/item2.png")%> alt="Иконка">
+            <span>2</span>
+          </div>
+          <div class="item--description">
+            <h5 class="description--title">Промываем водой и отправляем в сухожаровой шкаф</h5>
+            <p class="description--text">
+              От 30 до 120 минут при температуре от 150 до 250 градусов происходит обработка инструмента.
+              Данная процедура дополняет дезинфекцию раствором и уничтожает вирусы
+              опасных болезней.
+            </p>
+          </div>
+        </div>
+        <div class="content--item">
+          <div class="item--image">
+            <img src=<%=require( "./assets/img/about/2/item3.png")%> alt="Иконка">
+            <span>3</span>
+          </div>
+          <div class="item--description">
+            <p class="description--text">
+              Пилочки, салфетки и полотенца используем только одноразовые. Руки мастера и клиента
+              обрабатываются антисептиком.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img class='instrument--flower1' src=<%=require(
+        "./assets/img/about/2/Flower.png")%> alt="Декоративный цветок">
+      <img class='instrument--flower2' src=<%=require(
+        "./assets/img/about/2/flower2.png")%> alt="Декоративный цветок">
+    </section>
+
+    <section class="about--littleThings">
+      <h3 class="littleThings--title">3.</h3>
+      <div class="littleThings--contentWrapper">
+        <h4 class="littleThings--contentTitle">Мелочи, которые делают посещение нашей студии комфортным</h4>
+        <div class="littleThings--benefits">
+          <div class="benefits--item">
+            <img src=<%=require( "./assets/icons/benefits_care/1.svg")%> alt="Иконка кресла">
+            <span>Удобное кресло</span>
+          </div>
+          <div class="benefits--item">
+            <img src=<%=require( "./assets/icons/benefits_care/2.svg")%> alt="Иконка кресла">
+            <span>Возможность просмотра
+              <br> фильмов</span>
+          </div>
+          <div class="benefits--item">
+            <img src=<%=require( "./assets/icons/benefits_care/3.svg")%> alt="Иконка кресла">
+            <span>Подача свежесваренного
+              <br> кофе со сладостями</span>
+          </div>
+        </div>
+
+        <img class='instrument--smile' src=<%=require(
+          "./assets/icons/benefits_care/smile.svg")%> alt="Смайлик">
+        <p class="littleThings--text">
+          Во время процедуры Ваш ребенок может поиграть
+          <br> в детской комнате
+        </p>
+        <img src=<%=require( "./assets/img/about/3/lacquer.png")%> alt="Декоративный элемент лак" class="littleThings--lacquer">
+      </div>
+    </section>
+    <section class="about--guarantee">
+      <h3 class="guarantee--title">4.</h3>
+      <div class="guarantee--content">
+        <div class="guarantee--photoContainer">
+          <img class="guarantee--photo" src=<%=require( "./assets/img/about/4/woman.png")%> alt="Фото Юлия Гончарова">
+        </div>
+        <div class="guarantee--description">
+          <h4 class="guarantee--secondTitle">
+            Даем 100% гарантию
+          </h4>
+          <p class="guarantee--text">
+            Если вы покрыли ногти гель-лаком
+            <br> или сделали наращивание и что-то пошло
+            <br> не так — гарантируем восстановление
+            <br> в течение недели бесплатно!
+          </p>
+          <p class="guarantee--signName">Юлия Гончарова</p>
+          <p class="guarantee--signPost">Директор студии депиляции и красоты BRENDA</p>
+          <img class='guarantee--quotes' src=<%=require( "./assets/img/about/4/quotes.svg")%> alt="qoutes">
+          <img class='guarantee--scissors' src=<%=require(
+            "./assets/img/about/4/scissors.png")%> alt="Ножницы">
+        </div>
+      </div>
+    </section>
+
+    <section class="masters">
+      <h2 class="masters--title">
+        Приятные мастера
+        <br> с медицинским образованием
+      </h2>
+      <div class="masters--contentWrapper">
+        <span class="masters--line__red"> </span>
+        <div class="masters--slider">
+          <div class="slider--image">
+            <img src=<%=require( "./assets/img/masters/avatar1.png")%> alt="Аватар1">
+          </div>
+          <div class="slider--buttons">
+            <button class="slider--previousButton">
+              <span class="previousButton--icon"></span>
+            </button>
+            <span class="slider--numberSlide">
+              <span class="slider--numberSlide__big">1</span>/10</span>
+            <button class="slider--nextButton">
+              <span class="nextButton--icon"></span>
+            </button>
+          </div>
+        </div>
+        <div class="masters--masterDesctiption">
+          <div class="masterDescription--header">
+            <div class="masterDescription--nameWrapper">
+              <p class="masterDesctiption--name">Елена Иванова</p>
+              <p class="masterDescription--experience">Опыт с 2012 года</p>
+            </div>
+            <button class="signUp--button">Записаться онлайн</button>
+          </div>
+          <p class="masterDescription--text">
+            Елена — выпускница престижной школы «Маделон», обучалась технологиям покрытия ногтей
+            в компаниях «Authentica» и «ОлеХаус». Работает мастером маникюра с 2006
+            года. Елена безупречно покрывает ногти лаком и гель-лаком.
+            <br>
+            <br> Суглинок,как следствие уникальности почвообразования в данных условиях,
+            формирует суглинок. В случае смены водного режима гончарный дренаж дает
+            сервитут, это применимо и к исключительным правам. Субаренда растворяет
+            песок. Согласно постановлению Правительства РФ, Конституция когерентна.
+            Аккредитив повышает щелочной массоперенос.
+          </p>
+          <div class="masterDescription--links">
+            <a href="#" class="masterDescription--linksItem">
+              <img target="_blank" src=<%=require( "./assets/img/masters/certs.svg")%> alt="Иконка сертификатов">
+              <p>Дипломы и сертификаты</p>
+            </a>
+            <a href="#" target="_blank" class="masterDescription--linksItem">
+              <img src=<%=require( "./assets/img/masters/gallery.svg")%> alt="Иконка галереи">
+              <p>Галерея работ</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <img class="masters--rose" src=<%=require( "./assets/img/masters/rose.png")%> alt="Декоративная роза">
+    </section>
+    <div class="masters--bgBlock"></div>
+  </div>
+  <div class="main-container">
+    <h2 class="Atmosphere--title">Атмосфера
+      <br> BRENDA
+    </h2>
+  </div>
+  <section class="Atmosphere">
+    <div class="Atmosphere--sliderAtmosphere">
+      <div class="sliderAtmosphere--buttons">
+        <div class="sliderAtmosphere--button">
+          <button id="AtmosphereNext" class="slider--nextButton">
+            <span class="nextButton--icon"></span>
+          </button>
+        </div>
+        <div class="sliderAtmosphere--button">
+          <button id="AtmospherePrevious" class="slider--previousButton">
+            <span class="previousButton--icon"></span>
+          </button>
+        </div>
+      </div>
+      <div class="sliderAtmosphere--gallery">
+        <div id="gallery" class="gallery--imageWrapper">
+          <img width="920" height="614" src=<%=require( "./assets/img/AtmosSlider/img1.png")%> alt="Фотография1">
+          <img width="366" height="566" src=<%=require( "./assets/img/AtmosSlider/img2.png")%> alt="Фотография2">
+          <img width="920" height="614" src=<%=require( "./assets/img/AtmosSlider/img1.png")%> alt="Фотография1">
+          <img width="366" height="566" src=<%=require( "./assets/img/AtmosSlider/img2.png")%> alt="Фотография2">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="Client">
+    <div class="main-container">
+      <h2 class="Client--title">
+        Довольные
+        <br> клиенты
+      </h2>
+    </div>
+    <div class="Client--contentWrapper">
+      <div class="Client--gallery">
+        <img src=<%=require( "./assets/img/clients/img1.png")%> alt="Девушка 1">
+        <img src=<%=require( "./assets/img/clients/img2.png")%> alt="Девушка 2">
+        <img src=<%=require( "./assets/img/clients/img3.png")%> alt="Девушка 3">
+      </div>
+      <div class="Client--sub">
+        <img src=<%=require( "./assets/icons/instargram.svg")%> alt="Иконка инстраграмма">
+        <p>Подписывайтесь
+          <br> на нас в инстраграмме
+          <br>
+          <a href="http://instargram.com" target="_blank">@brenda_salon</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="Client--buttons">
+      <button id="AtmospherePrevious" class="slider--previousButton">
+        <span class="previousButton--icon"></span>
+      </button>
+      <button id="AtmosphereNext" class="slider--nextButton">
+        <span class="nextButton--icon"></span>
+      </button>
+    </div>
+
+    <div class="Client--bg__gray"></div>
+    <img src=<%=require( "./assets/img/clients/leaf.png")%> alt="Декоративная веточка" class="Client--leaf">
+    <img class="Client--foliage" src=<%=require( "./assets/img/clients/foliage.png")%> alt="Декоративная веточка">
+  </section>
+
+  <section class="Brands">
+    <div class="Brands--content">
+      <h2 class="Brands--title">
+        Отзывы о нашей студии
+      </h2>
+      <div class="Brands--review">
+        <div class="review--avatar">
+          <img src=<%=require( "./assets/img/brands/avatar.png")%> alt="Аватар">
+          <p>Елена
+            <br>Иванова</p>
+        </div>
+
+        <div class="review--text">
+          <img class="Brands--quotes" src=<%=require( "./assets/icons/quote.svg")%> alt="Декоративные кавычки">
+          <p>Исчисление предикатов, как следует из вышесказанного, синфазно излучает
+            катарсис. Непосредственно из законов сохранения следует, что бозе-конденсат
+            философски индуцирует знак. Колебание, следовательно, виртуально.
+            <br>
+            <br> Отношение к современности, на первый взгляд, поглощает бабувизм. Фронт,
+            при адиабатическом изменении параметров, одномерно выводит экзотермический
+            экситон. Освобождение
+          </p>
+          <div class="slider--buttons">
+            <button class="slider--previousButton">
+              <span class="previousButton--icon"></span>
+            </button>
+            <span class="slider--numberSlide">
+              <span class="slider--numberSlide__big">2</span>/5</span>
+            <button class="slider--nextButton">
+              <span class="nextButton--icon"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="Program">
+    <div class="Program--content">
+      <h2>
+        Выгодная программа лояльности
+      </h2>
+      <p>
+        Здравый смысл абстрактен. Туманность, как того требуют законы термодинамики, преобразует
+        короткоживущий предмет деятельности. Ощущение мира реально ускоряет сложный
+        атом. Неустойчивость, как известно, быстро разивается, если апперцепция транспонирует
+        расширяющийся позитивизм. Созерцание перманентно дискредитирует экситон,
+        ломая рамки привычных представлений.
+      </p>
+    </div>
+    <div class="Program--benefits">
+      <div class="benefits--item">
+        <img src=<%=require( "./assets/icons/program/1.svg")%> alt="Иконка">
+        <p>Личная карточка клиента</p>
+      </div>
+      <div class="benefits--item">
+        <img src=<%=require( "./assets/icons/program/2.svg")%> alt="Иконка">
+        <p>Каждая пятая процедура бесплатно
+        </p>
+      </div>
+      <div class="benefits--item">
+        <img src=<%=require( "./assets/icons/program/3.svg")%> alt="Иконка">
+        <p>При первом посещении приветственная скидка 40%</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="BottomForm">
+    <div class="main-container">
+      <h2 class="BottomForm--title">
+        Получите скидку
+        <span class="title__red">40%</span>
+        <br> на первое посещение
+        <br> прямо сейчас
+      </h2>
+      <button class="signUp--button">Записаться онлайн</button>
+    </div>
+    <img class="BottomForm--bg" src=<%=require( "./assets/img/bg-form.png")%> alt="Задний фон">
+  </section>
+
+  <section class="Map">
+    <h2 class="Map--title">Мы будем рады видеть
+      <br> Вас в нашем салоне</h2>
+
+    <div class="Map--content">
+      <img src=<%=require( "./assets/img/map.png")%> alt="Карта">
+      <div class="Map--address">
+        <p class="text__gray">Мы находимся по адресу:</p>
+        <p class="Map--addressText">433502, г. Самара, ул. Киевская, 10</p>
+        <p>
+          <img src=<%=require( "./assets/img/time.svg")%> alt="Иконка">Работаем с 10:00 до 20:00</p>
+        <p class="text__gray">Телефон</p>
+        <a class="Map--telephone" href="tel:+8 800 2000 600">8 800 2000 600</a>
+        <p class="text__gray">Электронная почта</p>
+        <a class="Map--mail" href="mailto:info@site.com">info@site.com</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="Footer">
+    <div class="Footer--firstRow">
+      <div class="header--logotype">
+        <img width="140" height="50" src=<%=require( "./assets/img/logotype.png")%> alt="Логотип" />
+        <p class="header--logotype-text">
+          Студия депиляции
+          <br> и красоты BRENDA
+        </p>
+      </div>
+      <div class="header--telButton">
+        <div class="header--telIcon">
+          <img src=<%=require( "./assets/icons/phone.svg")%> alt="phoneIcon">
+        </div>
+        <button>8 800 2000 600</button>
+      </div>
+    </div>
+
+    <div class="Footre--secondRow">
+      <div class="Footer--text">
+        <p>© 2017 ООО «Brenda» Все права защищены
+          <br>ИНН 7329021494 ОГРН 1167325058691
+        </p>
+      </div>
+      <img src=<%=require( "./assets/img/footer.png")%> alt="Логотип ARKADA" class="Footer--logo">
+    </div>
+
+    <p class="Footer--attention">Сайт оптом-шугаринг.рф осуществляет автоматизированный сбор персональных данных,
+      таких как ip, cookie, гео-данные, для своего полноценного функционирования.
+      <br> Если Вы не согласны со сбором данных, тогда покиньте данный сайт</p>
+  </footer>
+  <script src="../script/index.js"></script>
+</body>
+
+</html>

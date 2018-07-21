@@ -1,0 +1,26 @@
+.BottomForm {
+    margin-top: 225px;
+    position: relative;
+}
+
+.BottomForm--bg {
+    position: absolute;
+    right: 0;
+    top: -180px;
+    z-index: -3;
+}
+
+.title__red {
+    color: #ff1b60;
+}
+
+.BottomForm--title {
+    font-family:'FuturaHeavy', serif;
+    font-size: 52px;
+    line-height: 60px;
+}
+
+.BottomForm .signUp--button {
+    margin-top: 75px;
+    width: 260px;
+}

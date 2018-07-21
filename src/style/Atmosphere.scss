@@ -1,0 +1,49 @@
+.Atmosphere {
+  position: relative;
+  right: 0;
+  margin-left: 25%;
+}
+
+.Atmosphere--title {
+  font-family: 'FuturaHeavy', serif;
+  font-size: 52px;
+  margin-top: 250px;
+}
+
+.Atmosphere--sliderAtmosphere {
+  display: flex;
+  height: 520px;
+}
+
+.sliderAtmosphere--buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 30px;
+  width: 280px;
+}
+
+.sliderAtmosphere--button {
+  padding: 100px;
+}
+
+.sliderAtmosphere--button:first-child {
+  border-bottom: 1px solid #e3e4e5;
+}
+
+.sliderAtmosphere--gallery {
+  overflow: hidden;
+  height: 520px;
+}
+
+#gallery {
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  right: 10px;
+}
+
+.gallery--imageWrapper > img {
+  margin-right: 30px;
+}

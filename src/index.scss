@@ -1,0 +1,22 @@
+// @import '../node_modules/normalize-scss/sass/normalize/_import-now.scss';
+@import './style/_fonts.scss';
+@import './style/Header.scss';
+@import './style/Services.scss';
+@import './style/AboutSafety.scss';
+@import './style/AboutInstrument.scss';
+@import './style/AboutLittleThings.scss';
+@import './style/AboutGuarantee.scss';
+@import './style/Masters.scss';
+@import './style/Atmosphere.scss';
+@import './style/Client.scss';
+@import './style/Brands.scss';
+@import './style/Program.scss';
+@import './style/BottomForm.scss';
+@import './style/Map.scss';
+@import './style/Footer.scss';
+
+.main-container {
+  min-width: 1140px;
+  max-width: 1140px;
+  margin: 0 auto;
+}

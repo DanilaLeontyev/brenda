@@ -1,0 +1,81 @@
+.about--title {
+  font-family: 'FuturaHeavy', serif;
+  font-size: 52px;
+  margin-top: 120px;
+}
+
+.safety--title {
+  font-family: 'Playfair Display', serif;
+  font-size: 72px;
+  color: #ff1b60;
+  margin: auto;
+  position: relative;
+  top: -53px;
+  background-color: white;
+  text-align: center;
+  width: 180px;
+}
+
+.about--safety {
+  position: relative;
+  border: 1px solid #e3e4e5;
+  display: flex;
+  flex-direction: column;
+  margin-top: 95px;
+}
+.safety--secondTitle {
+  font-family: 'FuturaHeavy', serif;
+  font-size: 24px;
+  margin: auto;
+}
+
+.safety--content {
+  display: flex;
+  width: 780px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 50px;
+}
+.safety--logo {
+  margin-left: -20px;
+  margin-top: 5px;
+}
+
+.description--text {
+  font-family: 'Noto Sans', serif;
+  font-size: 16px;
+  line-height: 30px;
+  margin-left: 30px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.description--certificates {
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 75px;
+  width: 450px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cert-wrapper {
+  cursor: pointer;
+  border: 1px solid #e3e4e5;
+  padding: 18px;
+}
+
+.cert-wrapper:hover {
+  border: 1px solid #ff1b60;
+}
+
+.safety--rose {
+  position: absolute;
+  right: 20px;
+  top: -75px;
+}
+.safety--leaf {
+  position: absolute;
+  top: 400px;
+  left: -120px;
+}

@@ -1,0 +1,83 @@
+.about--instrument {
+  position: relative;
+  border: 1px solid #e3e4e5;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+.instrument--title {
+  font-family: 'Playfair Display', serif;
+  font-size: 72px;
+  color: #ff1b60;
+  margin: auto;
+  position: relative;
+  top: -53px;
+  background-color: white;
+  text-align: center;
+  width: 180px;
+}
+.instrument--secondTitle {
+  font-family: 'FuturaHeavy', serif;
+  font-size: 24px;
+  margin: auto;
+}
+
+.instrument--content {
+  display: flex;
+  flex-direction: column;
+  width: 745px;
+  margin: 0 auto;
+  margin-top: 55px;
+}
+
+.content--item {
+  display: flex;
+  margin-bottom: 40px;
+  justify-content: space-around;
+}
+
+.item--image {
+  position: relative;
+  align-self: baseline;
+  margin-right: 40px;
+}
+
+.description--title {
+  font-family: 'Noto Sans', serif;
+  font-size: 16px;
+}
+
+.description--text {
+  font-family: 'Noto Sans', serif;
+  font-size: 16px;
+  line-height: 30px;
+  margin: 0;
+}
+.item--image > span {
+  position: absolute;
+  display: block;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #ff1b60;
+  color: white;
+  font-family: 'Noto Sans', serif;
+  font-size: 12px;
+  line-height: 30px;
+  top: 0px;
+  right: 0px;
+  border: 4px solid white;
+}
+
+.instrument--flower1 {
+  position: absolute;
+  top: -180px;
+  right: -180px;
+}
+.instrument--flower2 {
+  position: absolute;
+  bottom: -520px;
+  left: -220px;
+  z-index: 3;
+}

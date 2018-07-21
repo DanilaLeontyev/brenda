@@ -1,0 +1,70 @@
+.about--guarantee {
+  position: relative;
+  border: 1px solid #e3e4e5;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+.guarantee--title {
+  font-family: 'Playfair Display', serif;
+  font-size: 72px;
+  color: #ff1b60;
+  margin: auto;
+  position: relative;
+  top: -53px;
+  background-color: white;
+  text-align: center;
+  width: 180px;
+}
+
+.guarantee--content {
+  display: flex;
+  width: 850px;
+  margin: 0 auto;
+}
+.guarantee--photoContainer {
+  height: 490px;
+  width: 430px;
+  overflow: hidden;
+}
+.guarantee--description {
+  width: 350px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.guarantee--secondTitle {
+  font-family: 'FuturaHeavy', serif;
+  font-size: 24px;
+}
+
+.guarantee--text {
+  font-family: 'Noto Sans', serif;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.guarantee--signName {
+  margin-top: 50px;
+  font-family: 'Noto Sans', serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+.guarantee--signPost {
+  font-family: 'Noto Sans', serif;
+  font-size: 14px;
+  font-style: italic;
+  color: #bdb9ba;
+}
+
+.guarantee--quotes {
+  position: absolute;
+  top: 210px;
+  right: 570px;
+}
+
+.guarantee--scissors {
+  position: absolute;
+  left: -105px;
+  bottom: -35px;
+}

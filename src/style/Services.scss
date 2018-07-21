@@ -1,0 +1,114 @@
+.services {
+    margin-top: 160px;
+    font-family: 'FuturaHeavy', serif;
+}
+.services--title {
+    font-size: 52px;
+    margin-bottom: 70px;
+}
+
+.services--container {
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery--firstRow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery--other {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.gallery--otherFirstRow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery--secondRow {
+    display: flex;
+    margin-top: 75px;
+    justify-content: space-between;
+}
+
+.gallery--item {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.gallery--itemDescription {
+    display: flex;
+    margin-top: 35px;
+    transition: color 1s;
+}
+
+.gallery--line {
+    width: 100px;
+    display: block;
+    height: 0;
+    border-top: 2px solid #ff1b60;
+    margin-right: 90px;
+    margin-top: 5px;
+    transition: width 0.5s, margin-right 0.5s;
+}
+
+.gallery--image {
+    position: relative;
+}
+
+.gallery--animatedBlock {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    right: 800px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba($color: #ff1b60, $alpha: .8);
+    transition: all 0.5s ease-in-out;
+}
+.seePrice {
+    height: 50px;
+    cursor: pointer;
+    width: 240px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    font-family: 'Noto Sans', serif;
+    font-size: 16px;
+    border-radius: 35px;
+}
+.enrollOnline {
+    margin-top: 20px;
+    height: 50px;
+    border: none;
+    border-radius: 35px;
+    cursor: pointer;
+    width: 240px;
+    background-color: white;
+    color: #ff1b60;
+    font-family: 'Noto Sans', serif;
+    font-size: 16px;
+}
+
+.gallery--item:hover .gallery--line {
+    width: 165px;
+    margin-right: 25px;
+}
+
+.gallery--itemDescription > span {
+    font-size: 18px;
+}
+
+.gallery--item:hover .gallery--itemDescription > span {
+    color: #ff1b60;
+}
+
+.gallery--item:hover .gallery--animatedBlock {
+    transform: translateX(800px)
+}

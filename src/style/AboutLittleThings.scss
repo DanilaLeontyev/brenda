@@ -1,0 +1,82 @@
+.about--littleThings {
+  position: relative;
+  border: 1px solid #e3e4e5;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+.littleThings--title {
+  font-family: 'Playfair Display', serif;
+  font-size: 72px;
+  color: #ff1b60;
+  margin: auto;
+  position: relative;
+  top: -53px;
+  background-color: white;
+  text-align: center;
+  width: 180px;
+}
+
+.littleThings--contentWrapper {
+  width: 750px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.littleThings--contentTitle {
+  font-family: 'FuturaHeavy', serif;
+  font-size: 24px;
+  margin: auto;
+}
+
+.littleThings--benefits {
+  width: 750px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+  border-bottom: 2px solid #ff1b60;
+}
+
+.benefits--item {
+  width: 205px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 70px;
+}
+
+.benefits--item > span {
+  text-align: center;
+  font-family: 'Noto Sans', serif;
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 30px;
+}
+
+.littleThings--text {
+  margin: 0 auto;
+  font-family: 'Noto Sans', serif;
+  font-size: 21px;
+  text-align: center;
+  line-height: 36px;
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+.instrument--smile {
+  display: block;
+  background-color: white;
+  position: relative;
+  width: 188px;
+  height: 18px;
+  margin: 0 auto;
+  top: -10px;
+}
+
+.littleThings--lacquer {
+  position: absolute;
+  bottom: -170px;
+  right: 40px;
+}

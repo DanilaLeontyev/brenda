@@ -1,0 +1,187 @@
+.masters {
+  position: relative;
+  margin-top: 280px;
+}
+
+.masters--title {
+  font-family: 'FuturaHeavy', serif;
+  font-size: 52px;
+  line-height: 60px;
+}
+
+.masters--line__red {
+  display: block;
+  width: 100px;
+  height: 0;
+  border-top: 2px solid #ff1b60;
+  align-self: flex-start;
+  margin-top: 100px;
+}
+
+.masters--contentWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-top: 90px;
+}
+
+.masters--slider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nextButton--icon {
+  margin: 0 auto;
+  margin-right: 12px;
+  display: block;
+  width: 9px;
+  height: 9px;
+  background-color: transparent;
+  border-top: 2px solid white;
+  border-right: 2px solid white;
+  transform: rotate(45deg);
+}
+
+.slider--nextButton {
+  cursor: pointer;
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ff1b60;
+  text-align: center;
+  box-shadow: 0 10px 50px rgba($color: #ff1b60, $alpha: 0.2);
+}
+
+.previousButton--icon {
+  margin: 0 auto;
+  margin-left: 12px;
+  display: block;
+  width: 9px;
+  height: 9px;
+  background-color: transparent;
+  border-bottom: 2px solid white;
+  border-left: 2px solid white;
+  transform: rotate(45deg);
+}
+
+.slider--previousButton {
+  cursor: pointer;
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ff1b60;
+  text-align: center;
+  box-shadow: 0 10px 50px rgba($color: #ff1b60, $alpha: 0.2);
+}
+
+.slider--buttons {
+  width: 250px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.slider--numberSlide {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.slider--numberSlide__big {
+  font-size: 60px;
+}
+
+.slider--previousButton:hover {
+  background-color: black;
+  box-shadow: 0 10px 50px rgba($color: black, $alpha: 0.2);
+}
+
+.slider--nextButton:hover {
+  background-color: black;
+  box-shadow: 0 10px 50px rgba($color: black, $alpha: 0.2);
+}
+
+.masterDescription--header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: center;
+  margin-bottom: 30px;
+}
+
+.masterDescription--nameWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.masterDescription--header > .signUp--button {
+  width: 240px;
+  align-self: center;
+}
+
+.masterDesctiption--name {
+  font-family: 'Noto Sans', serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+.masterDescription--experience {
+  font-family: 'Noto Sans', serif;
+  font-size: 14px;
+  font-style: italic;
+  color: #c5c2c3;
+  margin: 0;
+}
+
+.masterDescription--text {
+  font-family: 'Noto Sans', serif;
+  font-size: 16px;
+  line-height: 30px;
+  width: 570px;
+}
+
+.masterDescription--links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.masterDescription--linksItem {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  margin-right: 45px;
+  color: #ff1b60;
+  font-family: 'Noto Sans', serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.masterDescription--linksItem > img {
+  margin-right: 8px;
+}
+
+.masters--rose {
+  position: absolute;
+  bottom: -210px;
+  left: 200px;
+}
+
+.masters--bgBlock {
+  display: block;
+  position: absolute;
+  top: 5440px;
+  right: 0;
+  z-index: -1;
+  background-color: #f6f7f9;
+  height: 936px;
+  width: 1400px;
+}
