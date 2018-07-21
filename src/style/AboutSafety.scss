@@ -7,10 +7,11 @@
 .safety--title {
   font-family: 'Playfair Display', serif;
   font-size: 72px;
+  font-weight: bold;
   color: #ff1b60;
   margin: auto;
   position: relative;
-  top: -53px;
+  top: -60px;
   background-color: white;
   text-align: center;
   width: 180px;
@@ -42,6 +43,10 @@
   margin-top: 5px;
 }
 
+.safety--description {
+  margin-left: 50px;
+}
+
 .description--text {
   font-family: 'Noto Sans', serif;
   font-size: 16px;
@@ -51,7 +56,6 @@
   margin-bottom: 0;
 }
 .description--certificates {
-  margin-left: 30px;
   margin-top: 30px;
   margin-bottom: 75px;
   width: 450px;

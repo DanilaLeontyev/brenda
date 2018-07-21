@@ -11,7 +11,8 @@
   color: #ff1b60;
   margin: auto;
   position: relative;
-  top: -53px;
+  top: -60px;
+  font-weight: bold;
   background-color: white;
   text-align: center;
   width: 180px;
@@ -52,6 +53,10 @@
   font-size: 16px;
   line-height: 30px;
   margin: 0;
+}
+
+.description--text:last-child {
+  margin-top: 30px;
 }
 .item--image > span {
   position: absolute;
