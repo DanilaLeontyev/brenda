@@ -12,9 +12,9 @@ module.exports = {
     },
     devtool: 'source-map',
     devServer: {
+        host: '192.168.0.58',
         port: 3000,
-        open: true,
-        contentBase: './src'
+        open: true
     },
     module: {
         rules: [

@@ -16,11 +16,18 @@
 @import './style/Footer.scss';
 
 .main-container {
-  min-width: 1140px;
   max-width: 1140px;
   margin: 0 auto;
 }
 
 body {
   margin: 0;
+  overflow-x: hidden;
 }
+
+
+@media all and (max-width: 1199px) { 
+  .main-container {
+    max-width: 720px;
+  }
+ } 
