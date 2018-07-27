@@ -41,7 +41,9 @@
   position: relative;
   display: flex;
   flex-wrap: nowrap;
-  right: 10px;
+  align-items: flex-start;
+  transition: all 0.6s ease-in-out;
+  right: 0;
 }
 
 .gallery--imageWrapper > img {
